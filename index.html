@@ -1,47 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Better Website</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body {
-      font-family: Georgia, serif;
-      font-size: 21px;
-      line-height: 1.6;
-      max-width: 650px;
-      margin: 40px auto;
-      padding: 0 20px;
-      background: #fff;
-      color: #111;
-    }
-    h1, h2 {
-      font-family: Helvetica, Arial, sans-serif;
-      margin-top: 1.5em;
-    }
-    a {
-      color: #06c;
-      text-decoration: underline;
-    }
-    a:hover {
-      color: #0050a0;
-    }
-    strong {
-      font-weight: bold;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hidden Mathematics</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- MathJax for LaTeX rendering -->
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
-  <h1>This is a Better Motherfucking Website</h1>
+  <header>
+    <h1>Hidden Mathematics</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
 
-  <p>It’s readable. It’s fast. It doesn’t waste your time with bloated nonsense. There’s no JavaScript, no cookie banner, no tracking, no fonts from Google. Just HTML and a bit of CSS.</p>
+  <main>
+    <article>
+      <h2>Welcome!</h2>
+      <p>This is a blog about the hidden mathematics in everyday life, elegant structures in nature, and occasional musings on stochastic processes and committors.</p>
+      <p>Here’s an inline formula: \\( e^{i\pi} + 1 = 0 \\), and a display formula:</p>
+      <p>\\[ \int_{\Omega} q(x) q_b(x) \rho(x)\, dx \\]</p>
+    </article>
+  </main>
 
-  <h2>Why?</h2>
-  <p>Because <strong>you don’t need a framework</strong> to write a paragraph of text. Just write the damn thing. Use semantic HTML and make it look okay with some minimal CSS.</p>
-
-  <h2>How?</h2>
-  <p>Type it in a text editor. Save it as <code>.html</code>. Upload it. Done. If you want to make a better web, start with less bullshit.</p>
-
-  <p><a href="https://motherfuckingwebsite.com">See the original inspiration</a></p>
+  <footer>
+    <p>&copy; 2025 Jack Hughes</p>
+  </footer>
 </body>
 </html>
